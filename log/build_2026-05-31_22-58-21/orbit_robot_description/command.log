@@ -1,0 +1,1 @@
+Invoking command in '/home/sam/orbit_sim_ws/build/orbit_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sam/orbit_sim_ws/src/orbit_robot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sam/orbit_sim_ws/install/orbit_robot_description

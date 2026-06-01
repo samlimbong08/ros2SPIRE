@@ -1,0 +1,8 @@
+[01m[K/home/sam/orbit_sim_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:[m[K In member function ‘[01m[Kvirtual void gazebo_ros2_control::GazeboRosControlPlugin::Load(gazebo::physics::ModelPtr, sdf::v9::ElementPtr)[m[K’:
+[01m[K/home/sam/orbit_sim_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:247:8:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kssize_t write(int, const void*, size_t)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  247 |   [01;35m[Kwrite(tmp_fd, yaml_content.c_str(), yaml_content.size())[m[K;
+      |   [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sam/orbit_sim_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp:[m[K In member function ‘[01m[Kbool gazebo_ros2_control::GazeboSystem::extractPIDFromParameters(const string&, const string&, control_toolbox::Pid&)[m[K’:
+[01m[K/home/sam/orbit_sim_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp:317:62:[m[K [01;35m[Kwarning: [m[K‘[01m[Kantiwindup[m[K’ may be used uninitialized in this function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+  317 |                       << "antiwindup =" << std::boolalpha << [01;35m[Kantiwindup[m[K << " from node parameters");
+      |                                                              [01;35m[K^~~~~~~~~~[m[K

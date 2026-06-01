@@ -1,0 +1,1235 @@
+[0.000000] (-) TimerEvent: {}
+[0.000793] (gazebo_ros2_control) JobQueued: {'identifier': 'gazebo_ros2_control', 'dependencies': OrderedDict()}
+[0.000854] (orbit_robot_description) JobQueued: {'identifier': 'orbit_robot_description', 'dependencies': OrderedDict()}
+[0.000885] (gazebo_ros2_control_demos) JobQueued: {'identifier': 'gazebo_ros2_control_demos', 'dependencies': OrderedDict([('gazebo_ros2_control', '/home/sam/orbit_sim_ws/install/gazebo_ros2_control')])}
+[0.000916] (gazebo_ros2_control) JobStarted: {'identifier': 'gazebo_ros2_control'}
+[0.005814] (orbit_robot_description) JobStarted: {'identifier': 'orbit_robot_description'}
+[0.009019] (gazebo_ros2_control) JobProgress: {'identifier': 'gazebo_ros2_control', 'progress': 'cmake'}
+[0.009970] (gazebo_ros2_control) Command: {'cmd': ['/usr/bin/cmake', '/home/sam/orbit_sim_ws/src/gazebo_ros2_control/gazebo_ros2_control', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/sam/orbit_sim_ws/install/gazebo_ros2_control'], 'cwd': '/home/sam/orbit_sim_ws/build/gazebo_ros2_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sam'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sam/orbit_sim_ws/install/gazebo_ros2_control/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sam'), ('OLDPWD', '/home/sam/orbit_sim_ws'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/sam/orbit_sim_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sam'), ('NAME', 'SamuelAdenela'), ('WSL_INTEROP', '/run/WSL/1672_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.3.0_x64__8wekyb3d8bbwe:/mnt/c/SIMULIA/Commands:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Tailscale/:/mnt/c/Users/Super/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Super/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/Super/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Super/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sam/orbit_sim_ws/install/gazebo_ros2_control:/home/sam/orbit_sim_ws/install/orbit_robot_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/sam/orbit_sim_ws/build/gazebo_ros2_control'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/sam/orbit_sim_ws/install/gazebo_ros2_control:/home/sam/orbit_sim_ws/install/orbit_robot_description:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.013643] (orbit_robot_description) JobProgress: {'identifier': 'orbit_robot_description', 'progress': 'cmake'}
+[0.014810] (orbit_robot_description) Command: {'cmd': ['/usr/bin/cmake', '/home/sam/orbit_sim_ws/src/orbit_robot_description', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/sam/orbit_sim_ws/install/orbit_robot_description'], 'cwd': '/home/sam/orbit_sim_ws/build/orbit_robot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sam'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sam/orbit_sim_ws/install/gazebo_ros2_control/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sam'), ('OLDPWD', '/home/sam/orbit_sim_ws'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/sam/orbit_sim_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sam'), ('NAME', 'SamuelAdenela'), ('WSL_INTEROP', '/run/WSL/1672_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.3.0_x64__8wekyb3d8bbwe:/mnt/c/SIMULIA/Commands:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Tailscale/:/mnt/c/Users/Super/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Super/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/Super/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Super/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sam/orbit_sim_ws/install/gazebo_ros2_control:/home/sam/orbit_sim_ws/install/orbit_robot_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/sam/orbit_sim_ws/build/orbit_robot_description'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/sam/orbit_sim_ws/install/gazebo_ros2_control:/home/sam/orbit_sim_ws/install/orbit_robot_description:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.100918] (-) TimerEvent: {}
+[0.103052] (orbit_robot_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.103292] (gazebo_ros2_control) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.205365] (-) TimerEvent: {}
+[0.310018] (-) TimerEvent: {}
+[0.414775] (-) TimerEvent: {}
+[0.445842] (gazebo_ros2_control) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.466044] (orbit_robot_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.517056] (-) TimerEvent: {}
+[0.621784] (-) TimerEvent: {}
+[0.726496] (-) TimerEvent: {}
+[0.823422] (gazebo_ros2_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.826714] (-) TimerEvent: {}
+[0.855284] (orbit_robot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.930002] (-) TimerEvent: {}
+[0.954448] (gazebo_ros2_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.959730] (gazebo_ros2_control) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.959934] (gazebo_ros2_control) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.960237] (gazebo_ros2_control) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.962495] (gazebo_ros2_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.984900] (orbit_robot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.990143] (orbit_robot_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.990347] (orbit_robot_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.990584] (orbit_robot_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.992793] (orbit_robot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.031761] (-) TimerEvent: {}
+[1.106833] (gazebo_ros2_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.112423] (gazebo_ros2_control) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.112618] (gazebo_ros2_control) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.112968] (gazebo_ros2_control) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.114514] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.132638] (-) TimerEvent: {}
+[1.133575] (orbit_robot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.138979] (orbit_robot_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.139165] (orbit_robot_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.139532] (orbit_robot_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.141363] (orbit_robot_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.230415] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.232921] (-) TimerEvent: {}
+[1.258921] (orbit_robot_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.283137] (gazebo_ros2_control) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.299320] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)\n'}
+[1.301063] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found controller_manager: 2.54.0 (/opt/ros/humble/share/controller_manager/cmake)\n'}
+[1.309112] (orbit_robot_description) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.324438] (orbit_robot_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.333583] (-) TimerEvent: {}
+[1.381791] (orbit_robot_description) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.384048] (orbit_robot_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.385720] (orbit_robot_description) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.392357] (orbit_robot_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.393522] (orbit_robot_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.396306] (orbit_robot_description) StdoutLine: {'line': b'-- Generating done\n'}
+[1.397415] (orbit_robot_description) StdoutLine: {'line': b'-- Build files have been written to: /home/sam/orbit_sim_ws/build/orbit_robot_description\n'}
+[1.400463] (orbit_robot_description) CommandEnded: {'returncode': 0}
+[1.400945] (orbit_robot_description) JobProgress: {'identifier': 'orbit_robot_description', 'progress': 'build'}
+[1.402005] (orbit_robot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sam/orbit_sim_ws/build/orbit_robot_description', '--', '-j32', '-l32'], 'cwd': '/home/sam/orbit_sim_ws/build/orbit_robot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sam'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sam/orbit_sim_ws/install/gazebo_ros2_control/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sam'), ('OLDPWD', '/home/sam/orbit_sim_ws'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/sam/orbit_sim_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sam'), ('NAME', 'SamuelAdenela'), ('WSL_INTEROP', '/run/WSL/1672_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.3.0_x64__8wekyb3d8bbwe:/mnt/c/SIMULIA/Commands:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Tailscale/:/mnt/c/Users/Super/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Super/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/Super/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Super/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sam/orbit_sim_ws/install/gazebo_ros2_control:/home/sam/orbit_sim_ws/install/orbit_robot_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/sam/orbit_sim_ws/build/orbit_robot_description'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/sam/orbit_sim_ws/install/gazebo_ros2_control:/home/sam/orbit_sim_ws/install/orbit_robot_description:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[1.425841] (orbit_robot_description) CommandEnded: {'returncode': 0}
+[1.426398] (orbit_robot_description) JobProgress: {'identifier': 'orbit_robot_description', 'progress': 'install'}
+[1.432063] (orbit_robot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sam/orbit_sim_ws/build/orbit_robot_description'], 'cwd': '/home/sam/orbit_sim_ws/build/orbit_robot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sam'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sam/orbit_sim_ws/install/gazebo_ros2_control/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sam'), ('OLDPWD', '/home/sam/orbit_sim_ws'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/sam/orbit_sim_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sam'), ('NAME', 'SamuelAdenela'), ('WSL_INTEROP', '/run/WSL/1672_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.3.0_x64__8wekyb3d8bbwe:/mnt/c/SIMULIA/Commands:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Tailscale/:/mnt/c/Users/Super/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Super/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/Super/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Super/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sam/orbit_sim_ws/install/gazebo_ros2_control:/home/sam/orbit_sim_ws/install/orbit_robot_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/sam/orbit_sim_ws/build/orbit_robot_description'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/sam/orbit_sim_ws/install/gazebo_ros2_control:/home/sam/orbit_sim_ws/install/orbit_robot_description:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[1.433732] (-) TimerEvent: {}
+[1.436776] (orbit_robot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.437147] (orbit_robot_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.438108] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/urdf/FR3WML.urdf\n'}
+[1.443753] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/urdf/FR3WMS.urdf\n'}
+[1.449303] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/urdf/FR5WM.urdf\n'}
+[1.454748] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/urdf/fairino10_v6.urdf\n'}
+[1.460037] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/urdf/fairino16_v6.urdf\n'}
+[1.464167] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.465519] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/urdf/fairino20_v6.urdf\n'}
+[1.467621] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.471052] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/urdf/fairino30_v6.urdf\n'}
+[1.473446] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.476508] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/urdf/fairino3_mt_v6.urdf\n'}
+[1.482023] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/urdf/fairino3_v6.urdf\n'}
+[1.482280] (gazebo_ros2_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.487311] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/urdf/fairino5_v6.urdf\n'}
+[1.493276] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/launch/display.launch.py\n'}
+[1.493481] (gazebo_ros2_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.498406] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/launch/gazebo.launch.py\n'}
+[1.505689] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WML/collision/base_link.STL\n'}
+[1.511004] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WML/collision/base_link.STL:Zone.Identifier\n'}
+[1.516293] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WML/collision/base_link.STL:Zone.Identifier:Zone.Identifier\n'}
+[1.521548] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WML/collision/forearm_Link.STL\n'}
+[1.526651] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WML/collision/forearm_Link.STL:Zone.Identifier\n'}
+[1.531882] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WML/collision/forearm_Link.STL:Zone.Identifier:Zone.Identifier\n'}
+[1.534023] (-) TimerEvent: {}
+[1.537255] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WML/collision/shoulder_Link.STL\n'}
+[1.542629] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WML/collision/shoulder_Link.STL:Zone.Identifier\n'}
+[1.547900] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WML/collision/shoulder_Link.STL:Zone.Identifier:Zone.Identifier\n'}
+[1.553124] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WML/collision/upperarm_Link.STL\n'}
+[1.558210] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WML/collision/upperarm_Link.STL:Zone.Identifier\n'}
+[1.563410] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WML/collision/upperarm_Link.STL:Zone.Identifier:Zone.Identifier\n'}
+[1.568702] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WML/collision/wrist1_Link.STL\n'}
+[1.573812] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WML/collision/wrist1_Link.STL:Zone.Identifier\n'}
+[1.579277] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WML/collision/wrist1_Link.STL:Zone.Identifier:Zone.Identifier\n'}
+[1.584491] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WML/collision/wrist2_Link.STL\n'}
+[1.589613] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WML/collision/wrist2_Link.STL:Zone.Identifier\n'}
+[1.594700] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WML/collision/wrist2_Link.STL:Zone.Identifier:Zone.Identifier\n'}
+[1.600236] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WML/collision/wrist3_Link.STL\n'}
+[1.606130] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WML/collision/wrist3_Link.STL:Zone.Identifier\n'}
+[1.611441] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WML/collision/wrist3_Link.STL:Zone.Identifier:Zone.Identifier\n'}
+[1.617088] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WML/visual/base_link.dae\n'}
+[1.622608] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WML/visual/base_link.dae:Zone.Identifier\n'}
+[1.628523] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WML/visual/base_link.dae:Zone.Identifier:Zone.Identifier\n'}
+[1.633659] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WML/visual/forearm_Link.dae\n'}
+[1.634131] (-) TimerEvent: {}
+[1.639134] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WML/visual/forearm_Link.dae:Zone.Identifier\n'}
+[1.644812] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WML/visual/forearm_Link.dae:Zone.Identifier:Zone.Identifier\n'}
+[1.650013] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WML/visual/shoulder_Link.dae\n'}
+[1.655160] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WML/visual/shoulder_Link.dae:Zone.Identifier\n'}
+[1.660813] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WML/visual/shoulder_Link.dae:Zone.Identifier:Zone.Identifier\n'}
+[1.666119] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WML/visual/upperarm_Link.dae\n'}
+[1.671362] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WML/visual/upperarm_Link.dae:Zone.Identifier\n'}
+[1.676609] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WML/visual/upperarm_Link.dae:Zone.Identifier:Zone.Identifier\n'}
+[1.681980] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WML/visual/wrist1_Link.dae\n'}
+[1.687364] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WML/visual/wrist1_Link.dae:Zone.Identifier\n'}
+[1.692956] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WML/visual/wrist1_Link.dae:Zone.Identifier:Zone.Identifier\n'}
+[1.698236] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WML/visual/wrist2_Link.dae\n'}
+[1.703468] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WML/visual/wrist2_Link.dae:Zone.Identifier\n'}
+[1.708866] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WML/visual/wrist2_Link.dae:Zone.Identifier:Zone.Identifier\n'}
+[1.714219] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WML/visual/wrist3_Link.dae\n'}
+[1.719585] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WML/visual/wrist3_Link.dae:Zone.Identifier\n'}
+[1.724982] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WML/visual/wrist3_Link.dae:Zone.Identifier:Zone.Identifier\n'}
+[1.731293] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WMS/collision/base_link.STL\n'}
+[1.734349] (-) TimerEvent: {}
+[1.737034] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WMS/collision/base_link.STL:Zone.Identifier\n'}
+[1.742739] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WMS/collision/base_link.STL:Zone.Identifier:Zone.Identifier\n'}
+[1.748609] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WMS/collision/forearm_Link.STL\n'}
+[1.754089] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WMS/collision/forearm_Link.STL:Zone.Identifier\n'}
+[1.759375] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WMS/collision/forearm_Link.STL:Zone.Identifier:Zone.Identifier\n'}
+[1.764630] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WMS/collision/shoulder_Link.STL\n'}
+[1.769789] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WMS/collision/shoulder_Link.STL:Zone.Identifier\n'}
+[1.774937] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WMS/collision/shoulder_Link.STL:Zone.Identifier:Zone.Identifier\n'}
+[1.780082] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WMS/collision/upperarm_Link.STL\n'}
+[1.785247] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WMS/collision/upperarm_Link.STL:Zone.Identifier\n'}
+[1.790577] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WMS/collision/upperarm_Link.STL:Zone.Identifier:Zone.Identifier\n'}
+[1.795813] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WMS/collision/wrist1_Link.STL\n'}
+[1.801031] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WMS/collision/wrist1_Link.STL:Zone.Identifier\n'}
+[1.806495] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WMS/collision/wrist1_Link.STL:Zone.Identifier:Zone.Identifier\n'}
+[1.811484] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WMS/collision/wrist2_Link.STL\n'}
+[1.816719] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WMS/collision/wrist2_Link.STL:Zone.Identifier\n'}
+[1.821961] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WMS/collision/wrist2_Link.STL:Zone.Identifier:Zone.Identifier\n'}
+[1.827084] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WMS/collision/wrist3_Link.STL\n'}
+[1.832492] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WMS/collision/wrist3_Link.STL:Zone.Identifier\n'}
+[1.834576] (-) TimerEvent: {}
+[1.838158] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WMS/collision/wrist3_Link.STL:Zone.Identifier:Zone.Identifier\n'}
+[1.843813] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WMS/visual/base_link.dae\n'}
+[1.849112] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WMS/visual/base_link.dae:Zone.Identifier\n'}
+[1.854426] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WMS/visual/base_link.dae:Zone.Identifier:Zone.Identifier\n'}
+[1.860073] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WMS/visual/forearm_Link.dae\n'}
+[1.865486] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WMS/visual/forearm_Link.dae:Zone.Identifier\n'}
+[1.870944] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WMS/visual/forearm_Link.dae:Zone.Identifier:Zone.Identifier\n'}
+[1.876341] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WMS/visual/shoulder_Link.dae\n'}
+[1.881693] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WMS/visual/shoulder_Link.dae:Zone.Identifier\n'}
+[1.887137] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WMS/visual/shoulder_Link.dae:Zone.Identifier:Zone.Identifier\n'}
+[1.892705] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WMS/visual/upperarm_Link.dae\n'}
+[1.897889] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WMS/visual/upperarm_Link.dae:Zone.Identifier\n'}
+[1.903004] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WMS/visual/upperarm_Link.dae:Zone.Identifier:Zone.Identifier\n'}
+[1.908254] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WMS/visual/wrist1_Link.dae\n'}
+[1.913444] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WMS/visual/wrist1_Link.dae:Zone.Identifier\n'}
+[1.918735] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WMS/visual/wrist1_Link.dae:Zone.Identifier:Zone.Identifier\n'}
+[1.923937] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WMS/visual/wrist2_Link.dae\n'}
+[1.929124] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WMS/visual/wrist2_Link.dae:Zone.Identifier\n'}
+[1.934455] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WMS/visual/wrist2_Link.dae:Zone.Identifier:Zone.Identifier\n'}
+[1.934647] (-) TimerEvent: {}
+[1.940206] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WMS/visual/wrist3_Link.dae\n'}
+[1.945502] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WMS/visual/wrist3_Link.dae:Zone.Identifier\n'}
+[1.950794] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR3WMS/visual/wrist3_Link.dae:Zone.Identifier:Zone.Identifier\n'}
+[1.956294] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR5WM/collision/base_link.STL\n'}
+[1.961524] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR5WM/collision/base_link.STL:Zone.Identifier\n'}
+[1.966751] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR5WM/collision/base_link.STL:Zone.Identifier:Zone.Identifier\n'}
+[1.972094] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR5WM/collision/forearm_Link.STL\n'}
+[1.977168] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR5WM/collision/forearm_Link.STL:Zone.Identifier\n'}
+[1.982519] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR5WM/collision/forearm_Link.STL:Zone.Identifier:Zone.Identifier\n'}
+[1.988158] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR5WM/collision/shoulder_Link.STL\n'}
+[1.993793] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR5WM/collision/shoulder_Link.STL:Zone.Identifier\n'}
+[1.999164] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR5WM/collision/shoulder_Link.STL:Zone.Identifier:Zone.Identifier\n'}
+[2.004481] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR5WM/collision/upperarm_Link.STL\n'}
+[2.009509] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR5WM/collision/upperarm_Link.STL:Zone.Identifier\n'}
+[2.014701] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR5WM/collision/upperarm_Link.STL:Zone.Identifier:Zone.Identifier\n'}
+[2.020058] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR5WM/collision/wrist1_Link.STL\n'}
+[2.025471] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR5WM/collision/wrist1_Link.STL:Zone.Identifier\n'}
+[2.030790] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR5WM/collision/wrist1_Link.STL:Zone.Identifier:Zone.Identifier\n'}
+[2.034919] (-) TimerEvent: {}
+[2.036428] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR5WM/collision/wrist2_Link.STL\n'}
+[2.042148] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR5WM/collision/wrist2_Link.STL:Zone.Identifier\n'}
+[2.047630] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR5WM/collision/wrist2_Link.STL:Zone.Identifier:Zone.Identifier\n'}
+[2.053133] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR5WM/collision/wrist3_Link.STL\n'}
+[2.058368] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR5WM/collision/wrist3_Link.STL:Zone.Identifier\n'}
+[2.063628] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR5WM/collision/wrist3_Link.STL:Zone.Identifier:Zone.Identifier\n'}
+[2.068925] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR5WM/visual/base_link.dae\n'}
+[2.074117] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR5WM/visual/base_link.dae:Zone.Identifier\n'}
+[2.079268] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR5WM/visual/base_link.dae:Zone.Identifier:Zone.Identifier\n'}
+[2.084696] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR5WM/visual/forearm_Link.dae\n'}
+[2.089923] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR5WM/visual/forearm_Link.dae:Zone.Identifier\n'}
+[2.095147] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR5WM/visual/forearm_Link.dae:Zone.Identifier:Zone.Identifier\n'}
+[2.100231] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR5WM/visual/shoulder_Link.dae\n'}
+[2.105347] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR5WM/visual/shoulder_Link.dae:Zone.Identifier\n'}
+[2.110770] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR5WM/visual/shoulder_Link.dae:Zone.Identifier:Zone.Identifier\n'}
+[2.116329] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR5WM/visual/upperarm_Link.dae\n'}
+[2.121736] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR5WM/visual/upperarm_Link.dae:Zone.Identifier\n'}
+[2.127268] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR5WM/visual/upperarm_Link.dae:Zone.Identifier:Zone.Identifier\n'}
+[2.132618] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR5WM/visual/wrist1_Link.dae\n'}
+[2.135104] (-) TimerEvent: {}
+[2.137992] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR5WM/visual/wrist1_Link.dae:Zone.Identifier\n'}
+[2.143614] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR5WM/visual/wrist1_Link.dae:Zone.Identifier:Zone.Identifier\n'}
+[2.149045] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR5WM/visual/wrist2_Link.dae\n'}
+[2.154422] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR5WM/visual/wrist2_Link.dae:Zone.Identifier\n'}
+[2.160049] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR5WM/visual/wrist2_Link.dae:Zone.Identifier:Zone.Identifier\n'}
+[2.165357] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR5WM/visual/wrist3_Link.dae\n'}
+[2.170517] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR5WM/visual/wrist3_Link.dae:Zone.Identifier\n'}
+[2.175657] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/FR5WM/visual/wrist3_Link.dae:Zone.Identifier:Zone.Identifier\n'}
+[2.181002] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino10_v6/base_link.STL:Zone.Identifier\n'}
+[2.186188] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino10_v6/base_link.STL:Zone.Identifier:Zone.Identifier\n'}
+[2.191654] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino10_v6/base_link.stl\n'}
+[2.196872] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino10_v6/forearm_link.STL:Zone.Identifier\n'}
+[2.201993] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino10_v6/forearm_link.STL:Zone.Identifier:Zone.Identifier\n'}
+[2.207389] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino10_v6/forearm_link.stl\n'}
+[2.212577] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino10_v6/shoulder_link.STL:Zone.Identifier\n'}
+[2.217773] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino10_v6/shoulder_link.STL:Zone.Identifier:Zone.Identifier\n'}
+[2.222993] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino10_v6/shoulder_link.stl\n'}
+[2.228258] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino10_v6/upperarm_link.STL:Zone.Identifier\n'}
+[2.233379] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino10_v6/upperarm_link.STL:Zone.Identifier:Zone.Identifier\n'}
+[2.235272] (-) TimerEvent: {}
+[2.238893] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino10_v6/upperarm_link.stl\n'}
+[2.244717] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino10_v6/wrist1_link.STL:Zone.Identifier\n'}
+[2.250206] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino10_v6/wrist1_link.STL:Zone.Identifier:Zone.Identifier\n'}
+[2.255628] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino10_v6/wrist1_link.stl\n'}
+[2.260882] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino10_v6/wrist2_link.STL:Zone.Identifier\n'}
+[2.266051] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino10_v6/wrist2_link.STL:Zone.Identifier:Zone.Identifier\n'}
+[2.271378] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino10_v6/wrist2_link.stl\n'}
+[2.276487] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino10_v6/wrist3_link.STL:Zone.Identifier\n'}
+[2.281707] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino10_v6/wrist3_link.STL:Zone.Identifier:Zone.Identifier\n'}
+[2.286832] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino10_v6/wrist3_link.stl\n'}
+[2.292094] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino16_v6/base_link.STL\n'}
+[2.297287] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino16_v6/base_link.STL:Zone.Identifier\n'}
+[2.302689] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino16_v6/base_link.STL:Zone.Identifier:Zone.Identifier\n'}
+[2.308082] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino16_v6/forearm_link.STL\n'}
+[2.313379] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino16_v6/forearm_link.STL:Zone.Identifier\n'}
+[2.318564] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino16_v6/forearm_link.STL:Zone.Identifier:Zone.Identifier\n'}
+[2.323670] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino16_v6/shoulder_link.STL\n'}
+[2.328799] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino16_v6/shoulder_link.STL:Zone.Identifier\n'}
+[2.333893] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino16_v6/shoulder_link.STL:Zone.Identifier:Zone.Identifier\n'}
+[2.335422] (-) TimerEvent: {}
+[2.343472] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino16_v6/upperarm_link.STL\n'}
+[2.349987] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino16_v6/upperarm_link.STL:Zone.Identifier\n'}
+[2.355722] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino16_v6/upperarm_link.STL:Zone.Identifier:Zone.Identifier\n'}
+[2.361348] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino16_v6/wrist1_link.STL\n'}
+[2.366940] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino16_v6/wrist1_link.STL:Zone.Identifier\n'}
+[2.372812] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino16_v6/wrist1_link.STL:Zone.Identifier:Zone.Identifier\n'}
+[2.378518] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino16_v6/wrist2_link.STL\n'}
+[2.384165] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino16_v6/wrist2_link.STL:Zone.Identifier\n'}
+[2.389731] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino16_v6/wrist2_link.STL:Zone.Identifier:Zone.Identifier\n'}
+[2.395042] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino16_v6/wrist3_link.STL\n'}
+[2.400455] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino16_v6/wrist3_link.STL:Zone.Identifier\n'}
+[2.405636] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino16_v6/wrist3_link.STL:Zone.Identifier:Zone.Identifier\n'}
+[2.410810] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino20_v6/base_link.STL\n'}
+[2.416045] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino20_v6/base_link.STL:Zone.Identifier\n'}
+[2.421230] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino20_v6/base_link.STL:Zone.Identifier:Zone.Identifier\n'}
+[2.426365] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino20_v6/forearm_link.STL\n'}
+[2.432066] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino20_v6/forearm_link.STL:Zone.Identifier\n'}
+[2.435671] (-) TimerEvent: {}
+[2.437569] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino20_v6/forearm_link.STL:Zone.Identifier:Zone.Identifier\n'}
+[2.443099] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino20_v6/shoulder_link.STL\n'}
+[2.448572] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino20_v6/shoulder_link.STL:Zone.Identifier\n'}
+[2.453803] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino20_v6/shoulder_link.STL:Zone.Identifier:Zone.Identifier\n'}
+[2.459169] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino20_v6/upperarm_link.STL\n'}
+[2.464439] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino20_v6/upperarm_link.STL:Zone.Identifier\n'}
+[2.469369] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino20_v6/upperarm_link.STL:Zone.Identifier:Zone.Identifier\n'}
+[2.474562] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino20_v6/wrist1_link.STL\n'}
+[2.479648] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino20_v6/wrist1_link.STL:Zone.Identifier\n'}
+[2.484973] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino20_v6/wrist1_link.STL:Zone.Identifier:Zone.Identifier\n'}
+[2.490068] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino20_v6/wrist2_link.STL\n'}
+[2.495324] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino20_v6/wrist2_link.STL:Zone.Identifier\n'}
+[2.500652] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino20_v6/wrist2_link.STL:Zone.Identifier:Zone.Identifier\n'}
+[2.505922] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino20_v6/wrist3_link.STL\n'}
+[2.511208] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino20_v6/wrist3_link.STL:Zone.Identifier\n'}
+[2.516579] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino20_v6/wrist3_link.STL:Zone.Identifier:Zone.Identifier\n'}
+[2.522478] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino30_v6/base_link.STL\n'}
+[2.527958] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino30_v6/base_link.STL:Zone.Identifier\n'}
+[2.533413] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino30_v6/base_link.STL:Zone.Identifier:Zone.Identifier\n'}
+[2.535860] (-) TimerEvent: {}
+[2.538962] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino30_v6/forearm_link.STL\n'}
+[2.544954] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino30_v6/forearm_link.STL:Zone.Identifier\n'}
+[2.550613] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino30_v6/forearm_link.STL:Zone.Identifier:Zone.Identifier\n'}
+[2.556008] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino30_v6/shoulder_link.STL\n'}
+[2.561626] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino30_v6/shoulder_link.STL:Zone.Identifier\n'}
+[2.567155] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino30_v6/shoulder_link.STL:Zone.Identifier:Zone.Identifier\n'}
+[2.572359] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino30_v6/tool_link.STL\n'}
+[2.577596] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino30_v6/tool_link.STL:Zone.Identifier\n'}
+[2.582703] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino30_v6/tool_link.STL:Zone.Identifier:Zone.Identifier\n'}
+[2.587833] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino30_v6/uppperarm_link.STL\n'}
+[2.593060] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino30_v6/uppperarm_link.STL:Zone.Identifier\n'}
+[2.598163] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino30_v6/uppperarm_link.STL:Zone.Identifier:Zone.Identifier\n'}
+[2.603266] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino30_v6/wrist1_link.STL\n'}
+[2.608453] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino30_v6/wrist1_link.STL:Zone.Identifier\n'}
+[2.613653] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino30_v6/wrist1_link.STL:Zone.Identifier:Zone.Identifier\n'}
+[2.618876] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino30_v6/wrist2_link.STL\n'}
+[2.623987] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino30_v6/wrist2_link.STL:Zone.Identifier\n'}
+[2.629201] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino30_v6/wrist2_link.STL:Zone.Identifier:Zone.Identifier\n'}
+[2.634329] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino30_v6/wrist3_link.STL\n'}
+[2.636011] (-) TimerEvent: {}
+[2.639841] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino30_v6/wrist3_link.STL:Zone.Identifier\n'}
+[2.645931] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino30_v6/wrist3_link.STL:Zone.Identifier:Zone.Identifier\n'}
+[2.651666] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino3_mt_v6/base_link.STL\n'}
+[2.657194] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino3_mt_v6/base_link.STL:Zone.Identifier\n'}
+[2.662639] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino3_mt_v6/base_link.STL:Zone.Identifier:Zone.Identifier\n'}
+[2.667864] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino3_mt_v6/forearm_link.STL\n'}
+[2.673275] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino3_mt_v6/forearm_link.STL:Zone.Identifier\n'}
+[2.678451] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino3_mt_v6/forearm_link.STL:Zone.Identifier:Zone.Identifier\n'}
+[2.683626] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino3_mt_v6/shoulder_link.STL\n'}
+[2.688823] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino3_mt_v6/shoulder_link.STL:Zone.Identifier\n'}
+[2.694383] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino3_mt_v6/shoulder_link.STL:Zone.Identifier:Zone.Identifier\n'}
+[2.699750] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino3_mt_v6/upperarm_link.STL\n'}
+[2.704946] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino3_mt_v6/upperarm_link.STL:Zone.Identifier\n'}
+[2.710077] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino3_mt_v6/upperarm_link.STL:Zone.Identifier:Zone.Identifier\n'}
+[2.715199] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino3_mt_v6/wrist1_link.STL\n'}
+[2.720575] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino3_mt_v6/wrist1_link.STL:Zone.Identifier\n'}
+[2.725773] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino3_mt_v6/wrist1_link.STL:Zone.Identifier:Zone.Identifier\n'}
+[2.731055] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino3_mt_v6/wrist2_link.STL\n'}
+[2.736196] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino3_mt_v6/wrist2_link.STL:Zone.Identifier\n'}
+[2.736286] (-) TimerEvent: {}
+[2.741689] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino3_mt_v6/wrist2_link.STL:Zone.Identifier:Zone.Identifier\n'}
+[2.746984] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino3_mt_v6/wrist3_link.STL\n'}
+[2.752434] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino3_mt_v6/wrist3_link.STL:Zone.Identifier\n'}
+[2.757790] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino3_mt_v6/wrist3_link.STL:Zone.Identifier:Zone.Identifier\n'}
+[2.762969] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino3_v6/base_link.STL\n'}
+[2.768210] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino3_v6/base_link.STL:Zone.Identifier\n'}
+[2.773589] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino3_v6/base_link.STL:Zone.Identifier:Zone.Identifier\n'}
+[2.779053] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino3_v6/forearm_link.STL\n'}
+[2.784555] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino3_v6/forearm_link.STL:Zone.Identifier\n'}
+[2.789816] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino3_v6/forearm_link.STL:Zone.Identifier:Zone.Identifier\n'}
+[2.795173] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino3_v6/shoulder_link.STL\n'}
+[2.800428] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino3_v6/shoulder_link.STL:Zone.Identifier\n'}
+[2.805726] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino3_v6/shoulder_link.STL:Zone.Identifier:Zone.Identifier\n'}
+[2.810840] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino3_v6/upperarm_link.STL\n'}
+[2.816215] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino3_v6/upperarm_link.STL:Zone.Identifier\n'}
+[2.821552] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino3_v6/upperarm_link.STL:Zone.Identifier:Zone.Identifier\n'}
+[2.826701] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino3_v6/wrist1_link.STL\n'}
+[2.831954] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino3_v6/wrist1_link.STL:Zone.Identifier\n'}
+[2.836626] (-) TimerEvent: {}
+[2.837272] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino3_v6/wrist1_link.STL:Zone.Identifier:Zone.Identifier\n'}
+[2.842513] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino3_v6/wrist2_link.STL\n'}
+[2.846026] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.847878] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino3_v6/wrist2_link.STL:Zone.Identifier\n'}
+[2.848084] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.854092] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino3_v6/wrist2_link.STL:Zone.Identifier:Zone.Identifier\n'}
+[2.859420] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino3_v6/wrist3_link.STL\n'}
+[2.864976] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino3_v6/wrist3_link.STL:Zone.Identifier\n'}
+[2.866444] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[2.870138] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino3_v6/wrist3_link.STL:Zone.Identifier:Zone.Identifier\n'}
+[2.875449] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino5_v6/base_link.STL\n'}
+[2.880721] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino5_v6/base_link.STL:Zone.Identifier\n'}
+[2.886096] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino5_v6/base_link.STL:Zone.Identifier:Zone.Identifier\n'}
+[2.891120] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino5_v6/forearm_link.STL\n'}
+[2.896748] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino5_v6/forearm_link.STL:Zone.Identifier\n'}
+[2.900359] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.902164] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino5_v6/forearm_link.STL:Zone.Identifier:Zone.Identifier\n'}
+[2.902582] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[2.907459] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino5_v6/shoulder_link.STL\n'}
+[2.912941] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino5_v6/shoulder_link.STL:Zone.Identifier\n'}
+[2.922138] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino5_v6/shoulder_link.STL:Zone.Identifier:Zone.Identifier\n'}
+[2.927622] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino5_v6/upperarm_link.STL\n'}
+[2.932845] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino5_v6/upperarm_link.STL:Zone.Identifier\n'}
+[2.936882] (-) TimerEvent: {}
+[2.939214] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino5_v6/upperarm_link.STL:Zone.Identifier:Zone.Identifier\n'}
+[2.944853] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino5_v6/wrist1_link.STL\n'}
+[2.950081] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino5_v6/wrist1_link.STL:Zone.Identifier\n'}
+[2.955554] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino5_v6/wrist1_link.STL:Zone.Identifier:Zone.Identifier\n'}
+[2.961076] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino5_v6/wrist2_link.STL\n'}
+[2.966192] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino5_v6/wrist2_link.STL:Zone.Identifier\n'}
+[2.971448] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino5_v6/wrist2_link.STL:Zone.Identifier:Zone.Identifier\n'}
+[2.976616] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino5_v6/wrist3_link.STL\n'}
+[2.981919] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino5_v6/wrist3_link.STL:Zone.Identifier\n'}
+[2.986945] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/meshes/fairino5_v6/wrist3_link.STL:Zone.Identifier:Zone.Identifier\n'}
+[2.992801] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/rviz/.setup_assistant\n'}
+[2.997934] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/rviz/.setup_assistant:Zone.Identifier\n'}
+[3.003167] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/rviz/.setup_assistant:Zone.Identifier:Zone.Identifier\n'}
+[3.008730] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/ament_index/resource_index/package_run_dependencies/orbit_robot_description\n'}
+[3.014114] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/ament_index/resource_index/parent_prefix_path/orbit_robot_description\n'}
+[3.019450] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/environment/ament_prefix_path.sh\n'}
+[3.024664] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/environment/ament_prefix_path.dsv\n'}
+[3.030091] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/environment/path.sh\n'}
+[3.035858] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/environment/path.dsv\n'}
+[3.037021] (-) TimerEvent: {}
+[3.041355] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/local_setup.bash\n'}
+[3.046786] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/local_setup.sh\n'}
+[3.052335] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/local_setup.zsh\n'}
+[3.057767] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/local_setup.dsv\n'}
+[3.062791] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.062950] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/package.dsv\n'}
+[3.065368] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[3.068373] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/ament_index/resource_index/packages/orbit_robot_description\n'}
+[3.071623] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[3.073832] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/cmake/orbit_robot_descriptionConfig.cmake\n'}
+[3.078911] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/cmake/orbit_robot_descriptionConfig-version.cmake\n'}
+[3.084206] (orbit_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/orbit_robot_description/share/orbit_robot_description/package.xml\n'}
+[3.091082] (orbit_robot_description) CommandEnded: {'returncode': 0}
+[3.102482] (orbit_robot_description) JobEnded: {'identifier': 'orbit_robot_description', 'rc': 0}
+[3.137716] (-) TimerEvent: {}
+[3.152694] (gazebo_ros2_control) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.158270] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.241351] (-) TimerEvent: {}
+[3.270624] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.270889] (gazebo_ros2_control) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.344589] (-) TimerEvent: {}
+[3.386729] (gazebo_ros2_control) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.387671] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.448522] (-) TimerEvent: {}
+[3.451824] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found control_toolbox: 3.7.0 (/opt/ros/humble/share/control_toolbox/cmake)\n'}
+[3.485072] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found gazebo_dev: 3.9.0 (/opt/ros/humble/share/gazebo_dev/cmake)\n'}
+[3.490063] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[3.490792] (gazebo_ros2_control) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[3.499102] (gazebo_ros2_control) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[3.552699] (-) TimerEvent: {}
+[3.657495] (-) TimerEvent: {}
+[3.668249] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[3.701102] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0") \n'}
+[3.711514] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[3.729620] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[3.757667] (-) TimerEvent: {}
+[3.862312] (-) TimerEvent: {}
+[3.967151] (-) TimerEvent: {}
+[4.060218] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[4.062848] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[4.067470] (-) TimerEvent: {}
+[4.069155] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[4.070606] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[4.071031] (gazebo_ros2_control) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[4.075290] (gazebo_ros2_control) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[4.084371] (gazebo_ros2_control) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[4.104785] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[4.170344] (-) TimerEvent: {}
+[4.275102] (-) TimerEvent: {}
+[4.379846] (-) TimerEvent: {}
+[4.469861] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[4.478180] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[4.480001] (-) TimerEvent: {}
+[4.584674] (-) TimerEvent: {}
+[4.689280] (-) TimerEvent: {}
+[4.794069] (-) TimerEvent: {}
+[4.898806] (-) TimerEvent: {}
+[4.996214] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[4.996360] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[4.999013] (-) TimerEvent: {}
+[5.103690] (-) TimerEvent: {}
+[5.208374] (-) TimerEvent: {}
+[5.312692] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[5.312829] (-) TimerEvent: {}
+[5.312915] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[5.417389] (-) TimerEvent: {}
+[5.522103] (-) TimerEvent: {}
+[5.621797] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[5.621939] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[5.622245] (-) TimerEvent: {}
+[5.726870] (-) TimerEvent: {}
+[5.831592] (-) TimerEvent: {}
+[5.932707] (-) TimerEvent: {}
+[5.938296] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[5.938429] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[6.037004] (-) TimerEvent: {}
+[6.141802] (-) TimerEvent: {}
+[6.246651] (-) TimerEvent: {}
+[6.329298] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[6.329454] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[6.347530] (-) TimerEvent: {}
+[6.452233] (-) TimerEvent: {}
+[6.557070] (-) TimerEvent: {}
+[6.631913] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[6.658274] (-) TimerEvent: {}
+[6.758672] (-) TimerEvent: {}
+[6.863384] (-) TimerEvent: {}
+[6.968175] (-) TimerEvent: {}
+[7.072967] (-) TimerEvent: {}
+[7.177707] (-) TimerEvent: {}
+[7.282551] (-) TimerEvent: {}
+[7.387319] (-) TimerEvent: {}
+[7.492059] (-) TimerEvent: {}
+[7.596815] (-) TimerEvent: {}
+[7.701625] (-) TimerEvent: {}
+[7.806084] (-) TimerEvent: {}
+[7.910801] (-) TimerEvent: {}
+[8.015526] (-) TimerEvent: {}
+[8.120270] (-) TimerEvent: {}
+[8.223739] (-) TimerEvent: {}
+[8.326002] (-) TimerEvent: {}
+[8.430801] (-) TimerEvent: {}
+[8.535622] (-) TimerEvent: {}
+[8.640362] (-) TimerEvent: {}
+[8.745087] (-) TimerEvent: {}
+[8.849687] (-) TimerEvent: {}
+[8.954403] (-) TimerEvent: {}
+[9.059123] (-) TimerEvent: {}
+[9.163840] (-) TimerEvent: {}
+[9.268669] (-) TimerEvent: {}
+[9.373478] (-) TimerEvent: {}
+[9.478193] (-) TimerEvent: {}
+[9.582921] (-) TimerEvent: {}
+[9.687662] (-) TimerEvent: {}
+[9.788868] (-) TimerEvent: {}
+[9.893617] (-) TimerEvent: {}
+[9.997629] (-) TimerEvent: {}
+[10.102352] (-) TimerEvent: {}
+[10.207078] (-) TimerEvent: {}
+[10.311806] (-) TimerEvent: {}
+[10.416526] (-) TimerEvent: {}
+[10.521241] (-) TimerEvent: {}
+[10.625994] (-) TimerEvent: {}
+[10.730704] (-) TimerEvent: {}
+[10.835456] (-) TimerEvent: {}
+[10.939995] (-) TimerEvent: {}
+[11.044873] (-) TimerEvent: {}
+[11.149607] (-) TimerEvent: {}
+[11.254319] (-) TimerEvent: {}
+[11.359028] (-) TimerEvent: {}
+[11.463751] (-) TimerEvent: {}
+[11.568463] (-) TimerEvent: {}
+[11.673181] (-) TimerEvent: {}
+[11.777895] (-) TimerEvent: {}
+[11.882606] (-) TimerEvent: {}
+[11.987300] (-) TimerEvent: {}
+[12.092030] (-) TimerEvent: {}
+[12.196955] (-) TimerEvent: {}
+[12.301857] (-) TimerEvent: {}
+[12.406639] (-) TimerEvent: {}
+[12.511404] (-) TimerEvent: {}
+[12.616182] (-) TimerEvent: {}
+[12.720940] (-) TimerEvent: {}
+[12.823647] (-) TimerEvent: {}
+[12.928375] (-) TimerEvent: {}
+[13.032772] (-) TimerEvent: {}
+[13.137507] (-) TimerEvent: {}
+[13.242292] (-) TimerEvent: {}
+[13.347323] (-) TimerEvent: {}
+[13.452118] (-) TimerEvent: {}
+[13.556927] (-) TimerEvent: {}
+[13.661694] (-) TimerEvent: {}
+[13.762407] (-) TimerEvent: {}
+[13.867193] (-) TimerEvent: {}
+[13.970059] (-) TimerEvent: {}
+[14.074926] (-) TimerEvent: {}
+[14.179749] (-) TimerEvent: {}
+[14.284560] (-) TimerEvent: {}
+[14.389319] (-) TimerEvent: {}
+[14.494073] (-) TimerEvent: {}
+[14.598836] (-) TimerEvent: {}
+[14.703567] (-) TimerEvent: {}
+[14.808364] (-) TimerEvent: {}
+[14.913260] (-) TimerEvent: {}
+[15.018071] (-) TimerEvent: {}
+[15.122737] (-) TimerEvent: {}
+[15.227507] (-) TimerEvent: {}
+[15.332212] (-) TimerEvent: {}
+[15.436931] (-) TimerEvent: {}
+[15.541643] (-) TimerEvent: {}
+[15.646365] (-) TimerEvent: {}
+[15.751097] (-) TimerEvent: {}
+[15.855820] (-) TimerEvent: {}
+[15.960597] (-) TimerEvent: {}
+[16.065377] (-) TimerEvent: {}
+[16.169872] (-) TimerEvent: {}
+[16.274592] (-) TimerEvent: {}
+[16.379354] (-) TimerEvent: {}
+[16.484104] (-) TimerEvent: {}
+[16.588817] (-) TimerEvent: {}
+[16.693522] (-) TimerEvent: {}
+[16.798234] (-) TimerEvent: {}
+[16.902938] (-) TimerEvent: {}
+[17.007695] (-) TimerEvent: {}
+[17.112485] (-) TimerEvent: {}
+[17.216919] (-) TimerEvent: {}
+[17.321715] (-) TimerEvent: {}
+[17.426478] (-) TimerEvent: {}
+[17.531187] (-) TimerEvent: {}
+[17.635908] (-) TimerEvent: {}
+[17.740635] (-) TimerEvent: {}
+[17.845478] (-) TimerEvent: {}
+[17.947424] (-) TimerEvent: {}
+[18.052194] (-) TimerEvent: {}
+[18.157016] (-) TimerEvent: {}
+[18.261461] (-) TimerEvent: {}
+[18.366245] (-) TimerEvent: {}
+[18.471005] (-) TimerEvent: {}
+[18.575779] (-) TimerEvent: {}
+[18.680797] (-) TimerEvent: {}
+[18.785548] (-) TimerEvent: {}
+[18.890326] (-) TimerEvent: {}
+[18.995107] (-) TimerEvent: {}
+[19.099837] (-) TimerEvent: {}
+[19.204537] (-) TimerEvent: {}
+[19.309115] (-) TimerEvent: {}
+[19.414008] (-) TimerEvent: {}
+[19.518758] (-) TimerEvent: {}
+[19.623609] (-) TimerEvent: {}
+[19.728583] (-) TimerEvent: {}
+[19.833510] (-) TimerEvent: {}
+[19.937327] (-) TimerEvent: {}
+[20.042115] (-) TimerEvent: {}
+[20.146897] (-) TimerEvent: {}
+[20.251678] (-) TimerEvent: {}
+[20.356249] (-) TimerEvent: {}
+[20.460967] (-) TimerEvent: {}
+[20.565690] (-) TimerEvent: {}
+[20.670441] (-) TimerEvent: {}
+[20.775188] (-) TimerEvent: {}
+[20.879988] (-) TimerEvent: {}
+[20.984733] (-) TimerEvent: {}
+[21.089478] (-) TimerEvent: {}
+[21.194217] (-) TimerEvent: {}
+[21.298980] (-) TimerEvent: {}
+[21.403538] (-) TimerEvent: {}
+[21.508276] (-) TimerEvent: {}
+[21.613017] (-) TimerEvent: {}
+[21.717799] (-) TimerEvent: {}
+[21.822527] (-) TimerEvent: {}
+[21.923265] (-) TimerEvent: {}
+[22.028843] (-) TimerEvent: {}
+[22.133759] (-) TimerEvent: {}
+[22.238592] (-) TimerEvent: {}
+[22.343293] (-) TimerEvent: {}
+[22.448038] (-) TimerEvent: {}
+[22.552776] (-) TimerEvent: {}
+[22.657556] (-) TimerEvent: {}
+[22.762314] (-) TimerEvent: {}
+[22.867059] (-) TimerEvent: {}
+[22.971853] (-) TimerEvent: {}
+[23.076590] (-) TimerEvent: {}
+[23.181298] (-) TimerEvent: {}
+[23.286057] (-) TimerEvent: {}
+[23.390885] (-) TimerEvent: {}
+[23.495414] (-) TimerEvent: {}
+[23.600288] (-) TimerEvent: {}
+[23.705223] (-) TimerEvent: {}
+[23.810113] (-) TimerEvent: {}
+[23.915024] (-) TimerEvent: {}
+[24.019956] (-) TimerEvent: {}
+[24.124861] (-) TimerEvent: {}
+[24.229824] (-) TimerEvent: {}
+[24.334711] (-) TimerEvent: {}
+[24.439667] (-) TimerEvent: {}
+[24.544421] (-) TimerEvent: {}
+[24.649388] (-) TimerEvent: {}
+[24.754272] (-) TimerEvent: {}
+[24.859132] (-) TimerEvent: {}
+[24.964004] (-) TimerEvent: {}
+[25.068875] (-) TimerEvent: {}
+[25.173749] (-) TimerEvent: {}
+[25.278660] (-) TimerEvent: {}
+[25.383513] (-) TimerEvent: {}
+[25.488375] (-) TimerEvent: {}
+[25.592914] (-) TimerEvent: {}
+[25.697830] (-) TimerEvent: {}
+[25.802718] (-) TimerEvent: {}
+[25.907615] (-) TimerEvent: {}
+[26.012426] (-) TimerEvent: {}
+[26.117281] (-) TimerEvent: {}
+[26.222152] (-) TimerEvent: {}
+[26.327019] (-) TimerEvent: {}
+[26.431875] (-) TimerEvent: {}
+[26.536743] (-) TimerEvent: {}
+[26.641487] (-) TimerEvent: {}
+[26.746348] (-) TimerEvent: {}
+[26.851217] (-) TimerEvent: {}
+[26.956171] (-) TimerEvent: {}
+[27.061024] (-) TimerEvent: {}
+[27.165897] (-) TimerEvent: {}
+[27.270806] (-) TimerEvent: {}
+[27.375661] (-) TimerEvent: {}
+[27.480515] (-) TimerEvent: {}
+[27.585380] (-) TimerEvent: {}
+[27.690024] (-) TimerEvent: {}
+[27.794922] (-) TimerEvent: {}
+[27.899830] (-) TimerEvent: {}
+[27.932013] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[27.933174] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[27.933559] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[28.003018] (-) TimerEvent: {}
+[28.107867] (-) TimerEvent: {}
+[28.212750] (-) TimerEvent: {}
+[28.317716] (-) TimerEvent: {}
+[28.422588] (-) TimerEvent: {}
+[28.527603] (-) TimerEvent: {}
+[28.632482] (-) TimerEvent: {}
+[28.737223] (-) TimerEvent: {}
+[28.842091] (-) TimerEvent: {}
+[28.946971] (-) TimerEvent: {}
+[28.993448] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[29.049528] (-) TimerEvent: {}
+[29.154370] (-) TimerEvent: {}
+[29.259284] (-) TimerEvent: {}
+[29.364262] (-) TimerEvent: {}
+[29.469287] (-) TimerEvent: {}
+[29.574155] (-) TimerEvent: {}
+[29.679020] (-) TimerEvent: {}
+[29.783679] (-) TimerEvent: {}
+[29.888544] (-) TimerEvent: {}
+[29.992421] (-) TimerEvent: {}
+[30.054471] (gazebo_ros2_control) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[30.058494] (gazebo_ros2_control) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[30.067631] (gazebo_ros2_control) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[30.090559] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[30.092592] (-) TimerEvent: {}
+[30.128441] (gazebo_ros2_control) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[30.137052] (gazebo_ros2_control) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[30.157872] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[30.159159] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[30.159529] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[30.194215] (-) TimerEvent: {}
+[30.299061] (-) TimerEvent: {}
+[30.403972] (-) TimerEvent: {}
+[30.508833] (-) TimerEvent: {}
+[30.613705] (-) TimerEvent: {}
+[30.718572] (-) TimerEvent: {}
+[30.822483] (-) TimerEvent: {}
+[30.927351] (-) TimerEvent: {}
+[31.032228] (-) TimerEvent: {}
+[31.132537] (-) TimerEvent: {}
+[31.207558] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[31.211486] (gazebo_ros2_control) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[31.220055] (gazebo_ros2_control) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[31.233205] (-) TimerEvent: {}
+[31.242892] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[31.244106] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[31.244530] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[31.293528] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[31.335143] (-) TimerEvent: {}
+[31.336815] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[31.337903] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[31.425409] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[31.425826] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[31.427043] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[31.427586] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[31.427977] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[31.429701] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[31.429952] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[31.435470] (-) TimerEvent: {}
+[31.540291] (-) TimerEvent: {}
+[31.646563] (-) TimerEvent: {}
+[31.751499] (-) TimerEvent: {}
+[31.856213] (-) TimerEvent: {}
+[31.961127] (-) TimerEvent: {}
+[32.066004] (-) TimerEvent: {}
+[32.170877] (-) TimerEvent: {}
+[32.275811] (-) TimerEvent: {}
+[32.380745] (-) TimerEvent: {}
+[32.485629] (-) TimerEvent: {}
+[32.590533] (-) TimerEvent: {}
+[32.695412] (-) TimerEvent: {}
+[32.797030] (-) TimerEvent: {}
+[32.819738] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[32.826778] (gazebo_ros2_control) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[32.835654] (gazebo_ros2_control) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[32.858321] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[32.861397] (gazebo_ros2_control) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[32.875642] (gazebo_ros2_control) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[32.898216] (-) TimerEvent: {}
+[32.898805] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[32.899752] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[32.900010] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[32.900225] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[32.902383] (gazebo_ros2_control) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[32.902617] (gazebo_ros2_control) StdoutLine: {'line': b"-- Checking for module 'tbb'\n"}
+[32.911549] (gazebo_ros2_control) StdoutLine: {'line': b'--   Found tbb, version 2021.5.0\n'}
+[32.933484] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[32.936861] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found yaml_cpp_vendor: 8.0.2 (/opt/ros/humble/share/yaml_cpp_vendor/cmake)\n'}
+[32.946124] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.14 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[32.947263] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[33.000806] (-) TimerEvent: {}
+[33.005018] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[33.005987] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[33.006536] (gazebo_ros2_control) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/sam/orbit_sim_ws/src/gazebo_ros2_control/gazebo_ros2_control/include\n'}
+[33.006608] (gazebo_ros2_control) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[33.007594] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[33.007687] (gazebo_ros2_control) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[33.008527] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[33.009300] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[33.009380] (gazebo_ros2_control) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[33.009825] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[33.011514] (gazebo_ros2_control) StdoutLine: {'line': b'-- Configuring done\n'}
+[33.035962] (gazebo_ros2_control) StdoutLine: {'line': b'-- Generating done\n'}
+[33.042338] (gazebo_ros2_control) StdoutLine: {'line': b'-- Build files have been written to: /home/sam/orbit_sim_ws/build/gazebo_ros2_control\n'}
+[33.053804] (gazebo_ros2_control) CommandEnded: {'returncode': 0}
+[33.054521] (gazebo_ros2_control) JobProgress: {'identifier': 'gazebo_ros2_control', 'progress': 'build'}
+[33.055348] (gazebo_ros2_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sam/orbit_sim_ws/build/gazebo_ros2_control', '--', '-j32', '-l32'], 'cwd': '/home/sam/orbit_sim_ws/build/gazebo_ros2_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sam'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sam/orbit_sim_ws/install/gazebo_ros2_control/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sam'), ('OLDPWD', '/home/sam/orbit_sim_ws'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/sam/orbit_sim_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sam'), ('NAME', 'SamuelAdenela'), ('WSL_INTEROP', '/run/WSL/1672_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.3.0_x64__8wekyb3d8bbwe:/mnt/c/SIMULIA/Commands:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Tailscale/:/mnt/c/Users/Super/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Super/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/Super/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Super/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sam/orbit_sim_ws/install/gazebo_ros2_control:/home/sam/orbit_sim_ws/install/orbit_robot_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/sam/orbit_sim_ws/build/gazebo_ros2_control'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/sam/orbit_sim_ws/install/gazebo_ros2_control:/home/sam/orbit_sim_ws/install/orbit_robot_description:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[33.093000] (gazebo_ros2_control) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o\x1b[0m\n'}
+[33.093148] (gazebo_ros2_control) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o\x1b[0m\n'}
+[33.100994] (-) TimerEvent: {}
+[33.201683] (-) TimerEvent: {}
+[33.302332] (-) TimerEvent: {}
+[33.402784] (-) TimerEvent: {}
+[33.503272] (-) TimerEvent: {}
+[33.603890] (-) TimerEvent: {}
+[33.708811] (-) TimerEvent: {}
+[33.813839] (-) TimerEvent: {}
+[33.914145] (-) TimerEvent: {}
+[34.019154] (-) TimerEvent: {}
+[34.124171] (-) TimerEvent: {}
+[34.229360] (-) TimerEvent: {}
+[34.334473] (-) TimerEvent: {}
+[34.439607] (-) TimerEvent: {}
+[34.544574] (-) TimerEvent: {}
+[34.649622] (-) TimerEvent: {}
+[34.754384] (-) TimerEvent: {}
+[34.859309] (-) TimerEvent: {}
+[34.964222] (-) TimerEvent: {}
+[35.069114] (-) TimerEvent: {}
+[35.174170] (-) TimerEvent: {}
+[35.279089] (-) TimerEvent: {}
+[35.384100] (-) TimerEvent: {}
+[35.489241] (-) TimerEvent: {}
+[35.594393] (-) TimerEvent: {}
+[35.699436] (-) TimerEvent: {}
+[35.804176] (-) TimerEvent: {}
+[35.906461] (-) TimerEvent: {}
+[36.011387] (-) TimerEvent: {}
+[36.116411] (-) TimerEvent: {}
+[36.221361] (-) TimerEvent: {}
+[36.326270] (-) TimerEvent: {}
+[36.431293] (-) TimerEvent: {}
+[36.536045] (-) TimerEvent: {}
+[36.640949] (-) TimerEvent: {}
+[36.746085] (-) TimerEvent: {}
+[36.851086] (-) TimerEvent: {}
+[36.956243] (-) TimerEvent: {}
+[37.061273] (-) TimerEvent: {}
+[37.166255] (-) TimerEvent: {}
+[37.271158] (-) TimerEvent: {}
+[37.376045] (-) TimerEvent: {}
+[37.481000] (-) TimerEvent: {}
+[37.586003] (-) TimerEvent: {}
+[37.691118] (-) TimerEvent: {}
+[37.796081] (-) TimerEvent: {}
+[37.900872] (-) TimerEvent: {}
+[38.005526] (-) TimerEvent: {}
+[38.110653] (-) TimerEvent: {}
+[38.215570] (-) TimerEvent: {}
+[38.317162] (-) TimerEvent: {}
+[38.417588] (-) TimerEvent: {}
+[38.518177] (-) TimerEvent: {}
+[38.618846] (-) TimerEvent: {}
+[38.719480] (-) TimerEvent: {}
+[38.820368] (-) TimerEvent: {}
+[38.920752] (-) TimerEvent: {}
+[39.021096] (-) TimerEvent: {}
+[39.125995] (-) TimerEvent: {}
+[39.228251] (-) TimerEvent: {}
+[39.328844] (-) TimerEvent: {}
+[39.429217] (-) TimerEvent: {}
+[39.529655] (-) TimerEvent: {}
+[39.630111] (-) TimerEvent: {}
+[39.732738] (-) TimerEvent: {}
+[39.833405] (-) TimerEvent: {}
+[39.934197] (-) TimerEvent: {}
+[40.034939] (-) TimerEvent: {}
+[40.135772] (-) TimerEvent: {}
+[40.240775] (-) TimerEvent: {}
+[40.345772] (-) TimerEvent: {}
+[40.450901] (-) TimerEvent: {}
+[40.556001] (-) TimerEvent: {}
+[40.661025] (-) TimerEvent: {}
+[40.766041] (-) TimerEvent: {}
+[40.871000] (-) TimerEvent: {}
+[40.975699] (-) TimerEvent: {}
+[41.080696] (-) TimerEvent: {}
+[41.185719] (-) TimerEvent: {}
+[41.290688] (-) TimerEvent: {}
+[41.395638] (-) TimerEvent: {}
+[41.501874] (-) TimerEvent: {}
+[41.607228] (-) TimerEvent: {}
+[41.712578] (-) TimerEvent: {}
+[41.817923] (-) TimerEvent: {}
+[41.918595] (-) TimerEvent: {}
+[42.023762] (-) TimerEvent: {}
+[42.128934] (-) TimerEvent: {}
+[42.234074] (-) TimerEvent: {}
+[42.339257] (-) TimerEvent: {}
+[42.444376] (-) TimerEvent: {}
+[42.549650] (-) TimerEvent: {}
+[42.654864] (-) TimerEvent: {}
+[42.760092] (-) TimerEvent: {}
+[42.865237] (-) TimerEvent: {}
+[42.970388] (-) TimerEvent: {}
+[43.056319] (gazebo_ros2_control) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libgazebo_hardware_plugins.so\x1b[0m\n'}
+[43.071198] (-) TimerEvent: {}
+[43.176397] (-) TimerEvent: {}
+[43.281626] (-) TimerEvent: {}
+[43.386817] (-) TimerEvent: {}
+[43.449994] (gazebo_ros2_control) StdoutLine: {'line': b'[ 75%] Built target gazebo_hardware_plugins\n'}
+[43.488830] (-) TimerEvent: {}
+[43.594218] (-) TimerEvent: {}
+[43.699492] (-) TimerEvent: {}
+[43.804691] (-) TimerEvent: {}
+[43.909846] (-) TimerEvent: {}
+[44.015183] (-) TimerEvent: {}
+[44.120437] (-) TimerEvent: {}
+[44.225676] (-) TimerEvent: {}
+[44.330926] (-) TimerEvent: {}
+[44.362660] (gazebo_ros2_control) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libgazebo_ros2_control.so\x1b[0m\n'}
+[44.434329] (-) TimerEvent: {}
+[44.540017] (-) TimerEvent: {}
+[44.645154] (-) TimerEvent: {}
+[44.750272] (-) TimerEvent: {}
+[44.844371] (gazebo_ros2_control) StdoutLine: {'line': b'[100%] Built target gazebo_ros2_control\n'}
+[44.850718] (-) TimerEvent: {}
+[44.855548] (gazebo_ros2_control) CommandEnded: {'returncode': 0}
+[44.856246] (gazebo_ros2_control) JobProgress: {'identifier': 'gazebo_ros2_control', 'progress': 'install'}
+[44.858231] (gazebo_ros2_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sam/orbit_sim_ws/build/gazebo_ros2_control'], 'cwd': '/home/sam/orbit_sim_ws/build/gazebo_ros2_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sam'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sam/orbit_sim_ws/install/gazebo_ros2_control/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sam'), ('OLDPWD', '/home/sam/orbit_sim_ws'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/sam/orbit_sim_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sam'), ('NAME', 'SamuelAdenela'), ('WSL_INTEROP', '/run/WSL/1672_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.3.0_x64__8wekyb3d8bbwe:/mnt/c/SIMULIA/Commands:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Tailscale/:/mnt/c/Users/Super/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Super/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/Super/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Super/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sam/orbit_sim_ws/install/gazebo_ros2_control:/home/sam/orbit_sim_ws/install/orbit_robot_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/sam/orbit_sim_ws/build/gazebo_ros2_control'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/sam/orbit_sim_ws/install/gazebo_ros2_control:/home/sam/orbit_sim_ws/install/orbit_robot_description:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[44.862568] (gazebo_ros2_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[44.863107] (gazebo_ros2_control) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[44.863865] (gazebo_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control/lib/libgazebo_ros2_control.so\n'}
+[44.869869] (gazebo_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control/lib/libgazebo_hardware_plugins.so\n'}
+[44.876191] (gazebo_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.sh\n'}
+[44.881782] (gazebo_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.dsv\n'}
+[44.888312] (gazebo_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_ros2_control_plugin.hpp\n'}
+[44.893927] (gazebo_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system.hpp\n'}
+[44.899857] (gazebo_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp\n'}
+[44.905741] (gazebo_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control/share/gazebo_ros2_control//gazebo_hardware_plugins.xml\n'}
+[44.911982] (gazebo_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control/share/ament_index/resource_index/package_run_dependencies/gazebo_ros2_control\n'}
+[44.917954] (gazebo_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control/share/ament_index/resource_index/parent_prefix_path/gazebo_ros2_control\n'}
+[44.923882] (gazebo_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.sh\n'}
+[44.929600] (gazebo_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.dsv\n'}
+[44.935210] (gazebo_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.sh\n'}
+[44.940799] (gazebo_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.dsv\n'}
+[44.946493] (gazebo_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.bash\n'}
+[44.951068] (-) TimerEvent: {}
+[44.952113] (gazebo_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.sh\n'}
+[44.958934] (gazebo_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.zsh\n'}
+[44.964641] (gazebo_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.dsv\n'}
+[44.970330] (gazebo_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.dsv\n'}
+[44.976489] (gazebo_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control/share/ament_index/resource_index/packages/gazebo_ros2_control\n'}
+[44.982427] (gazebo_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control/share/ament_index/resource_index/gazebo_ros2_control__pluginlib__plugin/gazebo_ros2_control\n'}
+[44.988591] (gazebo_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[44.994301] (gazebo_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[45.000021] (gazebo_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[45.005694] (gazebo_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig.cmake\n'}
+[45.011550] (gazebo_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig-version.cmake\n'}
+[45.017981] (gazebo_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.xml\n'}
+[45.025303] (gazebo_ros2_control) CommandEnded: {'returncode': 0}
+[45.037828] (gazebo_ros2_control) JobEnded: {'identifier': 'gazebo_ros2_control', 'rc': 0}
+[45.038424] (gazebo_ros2_control_demos) JobStarted: {'identifier': 'gazebo_ros2_control_demos'}
+[45.051313] (-) TimerEvent: {}
+[45.122969] (gazebo_ros2_control_demos) JobProgress: {'identifier': 'gazebo_ros2_control_demos', 'progress': 'cmake'}
+[45.124572] (gazebo_ros2_control_demos) Command: {'cmd': ['/usr/bin/cmake', '/home/sam/orbit_sim_ws/src/gazebo_ros2_control/gazebo_ros2_control_demos', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos'], 'cwd': '/home/sam/orbit_sim_ws/build/gazebo_ros2_control_demos', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sam'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sam/orbit_sim_ws/install/gazebo_ros2_control/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sam'), ('OLDPWD', '/home/sam/orbit_sim_ws'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/sam/orbit_sim_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sam'), ('NAME', 'SamuelAdenela'), ('WSL_INTEROP', '/run/WSL/1672_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.3.0_x64__8wekyb3d8bbwe:/mnt/c/SIMULIA/Commands:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Tailscale/:/mnt/c/Users/Super/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Super/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/Super/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Super/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sam/orbit_sim_ws/install/gazebo_ros2_control:/home/sam/orbit_sim_ws/install/orbit_robot_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/sam/orbit_sim_ws/build/gazebo_ros2_control_demos'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/sam/orbit_sim_ws/install/gazebo_ros2_control:/home/sam/orbit_sim_ws/install/orbit_robot_description:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[45.152498] (-) TimerEvent: {}
+[45.257727] (-) TimerEvent: {}
+[45.304344] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[45.360438] (-) TimerEvent: {}
+[45.465662] (-) TimerEvent: {}
+[45.570759] (-) TimerEvent: {}
+[45.675879] (-) TimerEvent: {}
+[45.693101] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[45.777183] (-) TimerEvent: {}
+[45.882300] (-) TimerEvent: {}
+[45.986083] (-) TimerEvent: {}
+[46.091210] (-) TimerEvent: {}
+[46.094044] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[46.196017] (-) TimerEvent: {}
+[46.228853] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[46.234028] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[46.234311] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[46.234482] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[46.236723] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[46.299003] (-) TimerEvent: {}
+[46.382916] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[46.388077] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[46.388308] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[46.388668] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[46.390098] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[46.399585] (-) TimerEvent: {}
+[46.500350] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[46.500496] (-) TimerEvent: {}
+[46.548455] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[46.564839] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Found control_msgs: 4.9.0 (/opt/ros/humble/share/control_msgs/cmake)\n'}
+[46.602672] (-) TimerEvent: {}
+[46.707358] (-) TimerEvent: {}
+[46.753559] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[46.757186] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[46.763904] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[46.772017] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[46.783139] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[46.808717] (-) TimerEvent: {}
+[46.872486] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[46.898200] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[46.900566] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[46.909197] (-) TimerEvent: {}
+[47.014280] (-) TimerEvent: {}
+[47.119392] (-) TimerEvent: {}
+[47.224534] (-) TimerEvent: {}
+[47.329537] (-) TimerEvent: {}
+[47.434676] (-) TimerEvent: {}
+[47.539836] (-) TimerEvent: {}
+[47.645260] (-) TimerEvent: {}
+[47.750476] (-) TimerEvent: {}
+[47.855730] (-) TimerEvent: {}
+[47.960844] (-) TimerEvent: {}
+[48.066164] (-) TimerEvent: {}
+[48.171283] (-) TimerEvent: {}
+[48.276470] (-) TimerEvent: {}
+[48.381456] (-) TimerEvent: {}
+[48.486567] (-) TimerEvent: {}
+[48.587000] (-) TimerEvent: {}
+[48.599426] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[48.690558] (-) TimerEvent: {}
+[48.795707] (-) TimerEvent: {}
+[48.899195] (-) TimerEvent: {}
+[49.004574] (-) TimerEvent: {}
+[49.109752] (-) TimerEvent: {}
+[49.214959] (-) TimerEvent: {}
+[49.320122] (-) TimerEvent: {}
+[49.424916] (-) TimerEvent: {}
+[49.530075] (-) TimerEvent: {}
+[49.635037] (-) TimerEvent: {}
+[49.739562] (-) TimerEvent: {}
+[49.844115] (-) TimerEvent: {}
+[49.945824] (-) TimerEvent: {}
+[50.050438] (-) TimerEvent: {}
+[50.155196] (-) TimerEvent: {}
+[50.259801] (-) TimerEvent: {}
+[50.364505] (-) TimerEvent: {}
+[50.468885] (-) TimerEvent: {}
+[50.573394] (-) TimerEvent: {}
+[50.677872] (-) TimerEvent: {}
+[50.722084] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[50.780322] (-) TimerEvent: {}
+[50.884839] (-) TimerEvent: {}
+[50.989392] (-) TimerEvent: {}
+[51.093886] (-) TimerEvent: {}
+[51.198416] (-) TimerEvent: {}
+[51.302962] (-) TimerEvent: {}
+[51.407494] (-) TimerEvent: {}
+[51.511868] (-) TimerEvent: {}
+[51.616461] (-) TimerEvent: {}
+[51.721036] (-) TimerEvent: {}
+[51.825553] (-) TimerEvent: {}
+[51.930023] (-) TimerEvent: {}
+[52.032271] (-) TimerEvent: {}
+[52.136781] (-) TimerEvent: {}
+[52.241321] (-) TimerEvent: {}
+[52.345834] (-) TimerEvent: {}
+[52.450330] (-) TimerEvent: {}
+[52.554795] (-) TimerEvent: {}
+[52.659372] (-) TimerEvent: {}
+[52.759938] (-) TimerEvent: {}
+[52.864409] (-) TimerEvent: {}
+[52.968874] (-) TimerEvent: {}
+[53.073351] (-) TimerEvent: {}
+[53.177838] (-) TimerEvent: {}
+[53.244505] (gazebo_ros2_control_demos) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[53.250093] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[53.279205] (-) TimerEvent: {}
+[53.383735] (-) TimerEvent: {}
+[53.396291] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[53.396505] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[53.487506] (-) TimerEvent: {}
+[53.548219] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[53.549064] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[53.576071] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.19 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[53.587562] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.14 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[53.587693] (-) TimerEvent: {}
+[53.588683] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[53.650810] (gazebo_ros2_control_demos) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[53.652452] (gazebo_ros2_control_demos) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[53.652634] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[53.652686] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[53.653887] (gazebo_ros2_control_demos) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[53.653965] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[53.654472] (gazebo_ros2_control_demos) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[53.655259] (gazebo_ros2_control_demos) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[53.655610] (gazebo_ros2_control_demos) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[53.657109] (gazebo_ros2_control_demos) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[53.657187] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[53.657576] (gazebo_ros2_control_demos) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[53.658772] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Configuring done\n'}
+[53.682692] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Generating done\n'}
+[53.688009] (-) TimerEvent: {}
+[53.692543] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Build files have been written to: /home/sam/orbit_sim_ws/build/gazebo_ros2_control_demos\n'}
+[53.701354] (gazebo_ros2_control_demos) CommandEnded: {'returncode': 0}
+[53.702240] (gazebo_ros2_control_demos) JobProgress: {'identifier': 'gazebo_ros2_control_demos', 'progress': 'build'}
+[53.703132] (gazebo_ros2_control_demos) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sam/orbit_sim_ws/build/gazebo_ros2_control_demos', '--', '-j32', '-l32'], 'cwd': '/home/sam/orbit_sim_ws/build/gazebo_ros2_control_demos', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sam'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sam/orbit_sim_ws/install/gazebo_ros2_control/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sam'), ('OLDPWD', '/home/sam/orbit_sim_ws'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/sam/orbit_sim_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sam'), ('NAME', 'SamuelAdenela'), ('WSL_INTEROP', '/run/WSL/1672_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.3.0_x64__8wekyb3d8bbwe:/mnt/c/SIMULIA/Commands:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Tailscale/:/mnt/c/Users/Super/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Super/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/Super/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Super/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sam/orbit_sim_ws/install/gazebo_ros2_control:/home/sam/orbit_sim_ws/install/orbit_robot_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/sam/orbit_sim_ws/build/gazebo_ros2_control_demos'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/sam/orbit_sim_ws/install/gazebo_ros2_control:/home/sam/orbit_sim_ws/install/orbit_robot_description:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[53.745914] (gazebo_ros2_control_demos) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/example_velocity.dir/examples/example_velocity.cpp.o\x1b[0m\n'}
+[53.750170] (gazebo_ros2_control_demos) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/example_gripper.dir/examples/example_gripper.cpp.o\x1b[0m\n'}
+[53.750306] (gazebo_ros2_control_demos) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/example_diff_drive.dir/examples/example_diff_drive.cpp.o\x1b[0m\n'}
+[53.755206] (gazebo_ros2_control_demos) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/example_tricycle_drive.dir/examples/example_tricycle_drive.cpp.o\x1b[0m\n'}
+[53.756882] (gazebo_ros2_control_demos) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/example_effort.dir/examples/example_effort.cpp.o\x1b[0m\n'}
+[53.764019] (gazebo_ros2_control_demos) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/example_position_pid.dir/examples/example_position_pid.cpp.o\x1b[0m\n'}
+[53.766371] (gazebo_ros2_control_demos) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/example_position.dir/examples/example_position.cpp.o\x1b[0m\n'}
+[53.788210] (-) TimerEvent: {}
+[53.891776] (-) TimerEvent: {}
+[53.992325] (-) TimerEvent: {}
+[54.092996] (-) TimerEvent: {}
+[54.193491] (-) TimerEvent: {}
+[54.294032] (-) TimerEvent: {}
+[54.394643] (-) TimerEvent: {}
+[54.495456] (-) TimerEvent: {}
+[54.596106] (-) TimerEvent: {}
+[54.696724] (-) TimerEvent: {}
+[54.797610] (-) TimerEvent: {}
+[54.898119] (-) TimerEvent: {}
+[54.998924] (-) TimerEvent: {}
+[55.099639] (-) TimerEvent: {}
+[55.200123] (-) TimerEvent: {}
+[55.300585] (-) TimerEvent: {}
+[55.401308] (-) TimerEvent: {}
+[55.502175] (-) TimerEvent: {}
+[55.602725] (-) TimerEvent: {}
+[55.704482] (-) TimerEvent: {}
+[55.805134] (-) TimerEvent: {}
+[55.907252] (-) TimerEvent: {}
+[56.007932] (-) TimerEvent: {}
+[56.109859] (-) TimerEvent: {}
+[56.211360] (-) TimerEvent: {}
+[56.315073] (-) TimerEvent: {}
+[56.419193] (-) TimerEvent: {}
+[56.523816] (-) TimerEvent: {}
+[56.628296] (-) TimerEvent: {}
+[56.733160] (-) TimerEvent: {}
+[56.834425] (-) TimerEvent: {}
+[56.939199] (-) TimerEvent: {}
+[57.040826] (-) TimerEvent: {}
+[57.141417] (-) TimerEvent: {}
+[57.245919] (-) TimerEvent: {}
+[57.346958] (-) TimerEvent: {}
+[57.448480] (-) TimerEvent: {}
+[57.550949] (-) TimerEvent: {}
+[57.651744] (-) TimerEvent: {}
+[57.753237] (-) TimerEvent: {}
+[57.855758] (-) TimerEvent: {}
+[57.956077] (-) TimerEvent: {}
+[58.056580] (-) TimerEvent: {}
+[58.161178] (-) TimerEvent: {}
+[58.265678] (-) TimerEvent: {}
+[58.367116] (-) TimerEvent: {}
+[58.467823] (-) TimerEvent: {}
+[58.570683] (-) TimerEvent: {}
+[58.600991] (gazebo_ros2_control_demos) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX executable example_position_pid\x1b[0m\n'}
+[58.642042] (gazebo_ros2_control_demos) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX executable example_diff_drive\x1b[0m\n'}
+[58.670957] (-) TimerEvent: {}
+[58.686924] (gazebo_ros2_control_demos) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX executable example_velocity\x1b[0m\n'}
+[58.697040] (gazebo_ros2_control_demos) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX executable example_tricycle_drive\x1b[0m\n'}
+[58.707784] (gazebo_ros2_control_demos) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX executable example_gripper\x1b[0m\n'}
+[58.771878] (-) TimerEvent: {}
+[58.815367] (gazebo_ros2_control_demos) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable example_effort\x1b[0m\n'}
+[58.872034] (-) TimerEvent: {}
+[58.904791] (gazebo_ros2_control_demos) StdoutLine: {'line': b'[ 92%] Built target example_position_pid\n'}
+[58.972234] (-) TimerEvent: {}
+[58.972717] (gazebo_ros2_control_demos) StdoutLine: {'line': b'[ 92%] Built target example_diff_drive\n'}
+[58.992826] (gazebo_ros2_control_demos) StdoutLine: {'line': b'[ 92%] Built target example_velocity\n'}
+[59.012930] (gazebo_ros2_control_demos) StdoutLine: {'line': b'[ 92%] Built target example_tricycle_drive\n'}
+[59.021759] (gazebo_ros2_control_demos) StdoutLine: {'line': b'[ 92%] Built target example_gripper\n'}
+[59.074536] (-) TimerEvent: {}
+[59.078533] (gazebo_ros2_control_demos) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable example_position\x1b[0m\n'}
+[59.115520] (gazebo_ros2_control_demos) StdoutLine: {'line': b'[100%] Built target example_effort\n'}
+[59.177174] (-) TimerEvent: {}
+[59.281515] (-) TimerEvent: {}
+[59.347978] (gazebo_ros2_control_demos) StdoutLine: {'line': b'[100%] Built target example_position\n'}
+[59.355295] (gazebo_ros2_control_demos) CommandEnded: {'returncode': 0}
+[59.356706] (gazebo_ros2_control_demos) JobProgress: {'identifier': 'gazebo_ros2_control_demos', 'progress': 'install'}
+[59.356728] (gazebo_ros2_control_demos) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sam/orbit_sim_ws/build/gazebo_ros2_control_demos'], 'cwd': '/home/sam/orbit_sim_ws/build/gazebo_ros2_control_demos', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sam'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sam/orbit_sim_ws/install/gazebo_ros2_control/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sam'), ('OLDPWD', '/home/sam/orbit_sim_ws'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/sam/orbit_sim_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sam'), ('NAME', 'SamuelAdenela'), ('WSL_INTEROP', '/run/WSL/1672_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.3.0_x64__8wekyb3d8bbwe:/mnt/c/SIMULIA/Commands:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Tailscale/:/mnt/c/Users/Super/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Super/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/Super/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Super/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sam/orbit_sim_ws/install/gazebo_ros2_control:/home/sam/orbit_sim_ws/install/orbit_robot_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/sam/orbit_sim_ws/build/gazebo_ros2_control_demos'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/sam/orbit_sim_ws/install/gazebo_ros2_control:/home/sam/orbit_sim_ws/install/orbit_robot_description:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[59.360941] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[59.361320] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[59.362057] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_effort.launch.py\n'}
+[59.367929] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_position.launch.py\n'}
+[59.373247] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_velocity.launch.py\n'}
+[59.378730] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/diff_drive.launch.py\n'}
+[59.381765] (-) TimerEvent: {}
+[59.385607] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/diff_drive_namespaced.launch.py\n'}
+[59.391684] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/diff_drive_pair_namespaced.launch.py\n'}
+[59.397456] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/gripper_mimic_joint_example.launch.py\n'}
+[59.402949] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/pendulum_example_effort.launch.py\n'}
+[59.408486] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/pendulum_example_position.launch.py\n'}
+[59.414034] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/tricycle_drive.launch.py\n'}
+[59.419283] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/vertical_cart_example_position_pid.launch.py\n'}
+[59.424353] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/vertical_cart_example_position_pids_in_yaml.launch.py\n'}
+[59.429735] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/vertical_cart_example_velocity_pid.launch.py\n'}
+[59.435257] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller.yaml\n'}
+[59.440469] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller_effort.yaml\n'}
+[59.445600] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller_position.yaml\n'}
+[59.450896] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller_position_with_pids.yaml\n'}
+[59.456124] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller_velocity.yaml\n'}
+[59.462102] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/config.rviz\n'}
+[59.467368] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/diff_drive_controller.yaml\n'}
+[59.472849] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/diff_drive_controller_namespaced.yaml\n'}
+[59.478197] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/gripper_controller.yaml\n'}
+[59.482023] (-) TimerEvent: {}
+[59.484231] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/tricycle_drive_controller.yaml\n'}
+[59.490767] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_effort.xacro.urdf\n'}
+[59.499179] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_position.xacro.urdf\n'}
+[59.511350] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_velocity.xacro.urdf\n'}
+[59.517846] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_diff_drive.xacro.urdf\n'}
+[59.525177] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_diff_drive_namespaced.xacro.urdf\n'}
+[59.536190] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_gripper_mimic_joint.xacro.urdf\n'}
+[59.542570] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_pendulum_effort.xacro.urdf\n'}
+[59.549451] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_pendulum_position.xacro.urdf\n'}
+[59.558360] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_tricycle_drive.xacro.urdf\n'}
+[59.583143] (-) TimerEvent: {}
+[59.604118] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_vertical_cart_position_pid.xacro.urdf\n'}
+[59.611946] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_vertical_cart_position_pids_in_yaml.xacro.urdf\n'}
+[59.627990] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_vertical_cart_velocity_pid.xacro.urdf\n'}
+[59.640488] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_position\n'}
+[59.653483] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_position_pid\n'}
+[59.662950] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_velocity\n'}
+[59.673364] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_effort\n'}
+[59.683467] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_diff_drive\n'}
+[59.683743] (-) TimerEvent: {}
+[59.693346] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_tricycle_drive\n'}
+[59.702292] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_gripper\n'}
+[59.711904] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/ament_index/resource_index/package_run_dependencies/gazebo_ros2_control_demos\n'}
+[59.723570] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/ament_index/resource_index/parent_prefix_path/gazebo_ros2_control_demos\n'}
+[59.732676] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/ament_prefix_path.sh\n'}
+[59.741927] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/ament_prefix_path.dsv\n'}
+[59.750648] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/path.sh\n'}
+[59.759981] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/path.dsv\n'}
+[59.768644] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.bash\n'}
+[59.777762] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.sh\n'}
+[59.784135] (-) TimerEvent: {}
+[59.786586] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.zsh\n'}
+[59.794631] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.dsv\n'}
+[59.802779] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.dsv\n'}
+[59.811012] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/ament_index/resource_index/packages/gazebo_ros2_control_demos\n'}
+[59.819141] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/cmake/gazebo_ros2_control_demosConfig.cmake\n'}
+[59.826564] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/cmake/gazebo_ros2_control_demosConfig-version.cmake\n'}
+[59.834350] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.xml\n'}
+[59.842829] (gazebo_ros2_control_demos) CommandEnded: {'returncode': 0}
+[59.853558] (gazebo_ros2_control_demos) JobEnded: {'identifier': 'gazebo_ros2_control_demos', 'rc': 0}
+[59.854598] (-) EventReactorShutdown: {}

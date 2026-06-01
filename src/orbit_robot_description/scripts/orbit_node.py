@@ -22,11 +22,10 @@ class OrbitTrajectoryPublisher(Node):
         # Orbit Parameters (Adjust these carefully to stay within arm's reach)
         self.center_x = 0.4   
         self.center_y = 0.0   
-        self.center_z = 0.5   # Slightly lowered to avoid stretching the arm straight
-        self.radius = 0.12    # Slightly smaller radius for stability
-        self.speed = 0.3      # Slowed down a bit to see the smooth trajectory
+        self.center_z = 0.5   
+        self.radius = 0.12    
+        self.speed = 0.3      
         
-        # Bumped loop to 0.02 seconds (50 Hz) for silky smooth rendering
         self.timer = self.create_timer(0.02, self.timer_callback) 
         self.start_time = time.time()
 
@@ -41,7 +40,6 @@ class OrbitTrajectoryPublisher(Node):
         target_vector = [target_x, target_y, target_z]
         
         # CRITICAL FIX: We pass initial_position=self.last_joint_angles.
-        # This tells the solver: "Find a solution that is close to where we were 20ms ago!"
         joint_angles = self.robot_chain.inverse_kinematics(
             target_vector, 
             initial_position=self.last_joint_angles
@@ -53,7 +51,7 @@ class OrbitTrajectoryPublisher(Node):
         msg = JointState()
         msg.header.stamp = self.get_clock().now().to_msg()
         
-        # Fairino 10 typical joint layout (verify names if it doesn't move)
+        # Fairino 10 typical joint layout 
         msg.name = ['j1', 'j2', 'j3', 'j4', 'j5', 'j6']
         
         # Safely slice active joints based on your link length

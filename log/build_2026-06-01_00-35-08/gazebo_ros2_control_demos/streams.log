@@ -1,0 +1,136 @@
+[0.163s] Invoking command in '/home/sam/orbit_sim_ws/build/gazebo_ros2_control_demos': CMAKE_PREFIX_PATH=/home/sam/orbit_sim_ws/install/gazebo_ros2_control:/home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos:/home/sam/orbit_sim_ws/install/orbit_robot_description:/opt/ros/humble /usr/bin/cmake /home/sam/orbit_sim_ws/src/gazebo_ros2_control/gazebo_ros2_control_demos -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos
+[0.351s] -- The C compiler identification is GNU 11.4.0
+[1.243s] -- The CXX compiler identification is GNU 11.4.0
+[1.806s] -- Detecting C compiler ABI info
+[2.090s] -- Detecting C compiler ABI info - done
+[2.099s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.100s] -- Detecting C compile features
+[2.101s] -- Detecting C compile features - done
+[2.105s] -- Detecting CXX compiler ABI info
+[2.321s] -- Detecting CXX compiler ABI info - done
+[2.330s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.331s] -- Detecting CXX compile features
+[2.332s] -- Detecting CXX compile features - done
+[2.334s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.507s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.583s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.611s] -- Found control_msgs: 4.9.0 (/opt/ros/humble/share/control_msgs/cmake)
+[2.837s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.843s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.852s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.866s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.884s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.028s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[3.071s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.073s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.376s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[8.142s] -- Found FastRTPS: /opt/ros/humble/include  
+[11.952s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[11.961s] -- Looking for pthread.h
+[12.145s] -- Looking for pthread.h - found
+[12.146s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[12.346s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[12.348s] -- Found Threads: TRUE  
+[12.396s] -- Found rclcpp_action: 16.0.19 (/opt/ros/humble/share/rclcpp_action/cmake)
+[12.415s] -- Found ament_cmake_gtest: 1.3.14 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[12.417s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[12.508s] -- Added test 'copyright' to check source files copyright and LICENSE
+[12.510s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[12.510s] -- Configured cppcheck include dirs: 
+[12.510s] -- Configured cppcheck exclude dirs and/or files: 
+[12.512s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[12.512s] -- Configured cpplint exclude dirs and/or files: 
+[12.514s] -- Added test 'flake8' to check Python code syntax and style conventions
+[12.515s] -- Added test 'lint_cmake' to check CMake code style
+[12.516s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[12.519s] -- Added test 'uncrustify' to check C / C++ code style
+[12.519s] -- Configured uncrustify additional arguments: 
+[12.519s] -- Added test 'xmllint' to check XML markup files
+[12.521s] -- Configuring done
+[12.558s] -- Generating done
+[12.570s] -- Build files have been written to: /home/sam/orbit_sim_ws/build/gazebo_ros2_control_demos
+[12.582s] Invoked command in '/home/sam/orbit_sim_ws/build/gazebo_ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=/home/sam/orbit_sim_ws/install/gazebo_ros2_control:/home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos:/home/sam/orbit_sim_ws/install/orbit_robot_description:/opt/ros/humble /usr/bin/cmake /home/sam/orbit_sim_ws/src/gazebo_ros2_control/gazebo_ros2_control_demos -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos
+[12.583s] Invoking command in '/home/sam/orbit_sim_ws/build/gazebo_ros2_control_demos': CMAKE_PREFIX_PATH=/home/sam/orbit_sim_ws/install/gazebo_ros2_control:/home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos:/home/sam/orbit_sim_ws/install/orbit_robot_description:/opt/ros/humble /usr/bin/cmake --build /home/sam/orbit_sim_ws/build/gazebo_ros2_control_demos -- -j32 -l32
+[12.638s] [  7%] [32mBuilding CXX object CMakeFiles/example_position.dir/examples/example_position.cpp.o[0m
+[12.641s] [ 14%] [32mBuilding CXX object CMakeFiles/example_tricycle_drive.dir/examples/example_tricycle_drive.cpp.o[0m
+[12.647s] [ 21%] [32mBuilding CXX object CMakeFiles/example_gripper.dir/examples/example_gripper.cpp.o[0m
+[12.658s] [ 28%] [32mBuilding CXX object CMakeFiles/example_effort.dir/examples/example_effort.cpp.o[0m
+[12.668s] [ 35%] [32mBuilding CXX object CMakeFiles/example_position_pid.dir/examples/example_position_pid.cpp.o[0m
+[12.677s] [ 42%] [32mBuilding CXX object CMakeFiles/example_velocity.dir/examples/example_velocity.cpp.o[0m
+[12.688s] [ 50%] [32mBuilding CXX object CMakeFiles/example_diff_drive.dir/examples/example_diff_drive.cpp.o[0m
+[18.084s] [ 57%] [32m[1mLinking CXX executable example_tricycle_drive[0m
+[18.109s] [ 64%] [32m[1mLinking CXX executable example_position_pid[0m
+[18.159s] [ 71%] [32m[1mLinking CXX executable example_diff_drive[0m
+[18.167s] [ 78%] [32m[1mLinking CXX executable example_gripper[0m
+[18.185s] [ 85%] [32m[1mLinking CXX executable example_velocity[0m
+[18.238s] [ 92%] [32m[1mLinking CXX executable example_effort[0m
+[18.489s] [ 92%] Built target example_tricycle_drive
+[18.498s] [ 92%] Built target example_position_pid
+[18.498s] [ 92%] Built target example_diff_drive
+[18.504s] [ 92%] Built target example_velocity
+[18.510s] [ 92%] Built target example_gripper
+[18.601s] [ 92%] Built target example_effort
+[18.614s] [100%] [32m[1mLinking CXX executable example_position[0m
+[18.973s] [100%] Built target example_position
+[18.987s] Invoked command in '/home/sam/orbit_sim_ws/build/gazebo_ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=/home/sam/orbit_sim_ws/install/gazebo_ros2_control:/home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos:/home/sam/orbit_sim_ws/install/orbit_robot_description:/opt/ros/humble /usr/bin/cmake --build /home/sam/orbit_sim_ws/build/gazebo_ros2_control_demos -- -j32 -l32
+[18.989s] Invoking command in '/home/sam/orbit_sim_ws/build/gazebo_ros2_control_demos': CMAKE_PREFIX_PATH=/home/sam/orbit_sim_ws/install/gazebo_ros2_control:/home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos:/home/sam/orbit_sim_ws/install/orbit_robot_description:/opt/ros/humble /usr/bin/cmake --install /home/sam/orbit_sim_ws/build/gazebo_ros2_control_demos
+[18.997s] -- Install configuration: ""
+[18.997s] -- Execute custom install script
+[18.999s] -- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_effort.launch.py
+[19.008s] -- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_position.launch.py
+[19.017s] -- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_velocity.launch.py
+[19.027s] -- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/diff_drive.launch.py
+[19.036s] -- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/diff_drive_namespaced.launch.py
+[19.045s] -- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/diff_drive_pair_namespaced.launch.py
+[19.054s] -- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/gripper_mimic_joint_example.launch.py
+[19.063s] -- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/pendulum_example_effort.launch.py
+[19.072s] -- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/pendulum_example_position.launch.py
+[19.081s] -- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/tricycle_drive.launch.py
+[19.090s] -- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/vertical_cart_example_position_pid.launch.py
+[19.099s] -- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/vertical_cart_example_position_pids_in_yaml.launch.py
+[19.109s] -- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/vertical_cart_example_velocity_pid.launch.py
+[19.118s] -- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller.yaml
+[19.127s] -- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller_effort.yaml
+[19.135s] -- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller_position.yaml
+[19.144s] -- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller_position_with_pids.yaml
+[19.153s] -- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller_velocity.yaml
+[19.162s] -- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/config.rviz
+[19.171s] -- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/diff_drive_controller.yaml
+[19.180s] -- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/diff_drive_controller_namespaced.yaml
+[19.189s] -- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/gripper_controller.yaml
+[19.198s] -- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/tricycle_drive_controller.yaml
+[19.207s] -- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_effort.xacro.urdf
+[19.217s] -- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_position.xacro.urdf
+[19.227s] -- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_velocity.xacro.urdf
+[19.236s] -- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_diff_drive.xacro.urdf
+[19.245s] -- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_diff_drive_namespaced.xacro.urdf
+[19.254s] -- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_gripper_mimic_joint.xacro.urdf
+[19.263s] -- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_pendulum_effort.xacro.urdf
+[19.272s] -- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_pendulum_position.xacro.urdf
+[19.281s] -- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_tricycle_drive.xacro.urdf
+[19.290s] -- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_vertical_cart_position_pid.xacro.urdf
+[19.301s] -- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_vertical_cart_position_pids_in_yaml.xacro.urdf
+[19.310s] -- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_vertical_cart_velocity_pid.xacro.urdf
+[19.320s] -- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_position
+[19.329s] -- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_position_pid
+[19.338s] -- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_velocity
+[19.348s] -- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_effort
+[19.357s] -- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_diff_drive
+[19.366s] -- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_tricycle_drive
+[19.376s] -- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_gripper
+[19.385s] -- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/ament_index/resource_index/package_run_dependencies/gazebo_ros2_control_demos
+[19.395s] -- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/ament_index/resource_index/parent_prefix_path/gazebo_ros2_control_demos
+[19.404s] -- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/ament_prefix_path.sh
+[19.414s] -- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/ament_prefix_path.dsv
+[19.423s] -- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/path.sh
+[19.432s] -- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/path.dsv
+[19.441s] -- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.bash
+[19.450s] -- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.sh
+[19.459s] -- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.zsh
+[19.469s] -- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.dsv
+[19.478s] -- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.dsv
+[19.489s] -- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/ament_index/resource_index/packages/gazebo_ros2_control_demos
+[19.498s] -- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/cmake/gazebo_ros2_control_demosConfig.cmake
+[19.507s] -- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/cmake/gazebo_ros2_control_demosConfig-version.cmake
+[19.516s] -- Symlinking: /home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.xml
+[19.528s] Invoked command in '/home/sam/orbit_sim_ws/build/gazebo_ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=/home/sam/orbit_sim_ws/install/gazebo_ros2_control:/home/sam/orbit_sim_ws/install/gazebo_ros2_control_demos:/home/sam/orbit_sim_ws/install/orbit_robot_description:/opt/ros/humble /usr/bin/cmake --install /home/sam/orbit_sim_ws/build/gazebo_ros2_control_demos
